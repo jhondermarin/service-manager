@@ -1,0 +1,150 @@
+/* Ajuste base del documento */
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor global */
+
+.content {
+    background: #ecf0f1;
+    height: 100%;
+    width: 100%;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 11%;
+    min-width: 180px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+}
+
+/* Logo de la empresa */
+.logo-empresa {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logo-imagen {
+    width: 100%;
+    height: auto;
+}
+
+/* Lista de navegación */
+.lista-paginas ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-paginas a {
+    text-decoration: none;
+    color: #ecf0f1;
+    display: block;
+    padding: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis; /* agrega ... cuando no cabe */
+    white-space: nowrap;
+}
+
+.lista-paginas a:hover {
+    color: #3498db;
+}
+
+/* Footer de la sidebar */
+.sidebar-footer {
+    margin-top: auto;
+    font-size: 0.9em;
+}
+
+/* Contenido principal */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+    overflow-y: auto;
+}
+
+.content {
+    width: 89%;
+    height: 100%;
+}
+.resumen-estadisticas {
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.estadistica {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+}
+
+/* Encabezado principal */
+.header {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Ultimas incidencias */
+.ultimas-incidencias {
+    background: white;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-incidencias {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-incidencias th, .tabla-incidencias td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Ultimos mantenimientos */
+.ultimos-mantenimientos {
+    margin-top: 20px;
+    background: white;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-mantenimientos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-mantenimientos th, .tabla-mantenimientos td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
